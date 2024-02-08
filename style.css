@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.contenu{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(https://plus.unsplash.com/premium_photo-1673254928968-b6513f32d43b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenu .box{
+    height: 86vh;
+    width: 75%;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    display: flex;
+}
+/* nav*/
+.contenu nav{
+    height: 7%;
+    width: 70%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.contenu .logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.contenu .logo::first-letter{
+    color: rgb(224, 121, 224);
+    font-size: 35px;
+}
+.contenu nav ul li{
+    display: inline;
+    font-size: 18px;
+    margin: 0 20px; 
+}
+.contenu nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: rgb(224, 121, 224);
+}
+/* nav*/
+/*texte*/
+.texte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.texte h1{
+    font-size: 30px;
+    font-weight: 400px;
+}
+.texte h2{
+    font-size: 20px;
+    font-weight: 300px;
+    color: rgb(175, 29, 175);
+    padding: 10px 100px; 
+}
+.texte h3 a{
+    font-size: 15px;
+    font-weight: 300px;
+   padding: 10px 120px;
+   text-decoration: none;
+   border: 3px solid rgb(224, 121, 224) ;
+   border-radius: 10px;
+   color: #000;
+   background-color: rgb(224, 121, 224);
+}
+.texte h3 a:hover{
+    color: white;
+    background-color: #000;
+}
+/* texte*/
